@@ -39,6 +39,9 @@ html {
     flex-direction: column;
   }
 
+  em {
+    text-shadow: 2px 2px black;
+  }
 
   .panel1 { 
     filter: grayscale(100%); 
@@ -109,9 +112,11 @@ html {
   .panel p {
     text-transform: uppercase;
     font-family: 'verdana', serif;
-    text-shadow:0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
+    /* text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45); */
     font-size: 2em;
+    text-shadow: 2px 2px black;
   }
+
   .panel p:nth-child(2) {
     font-size: 4em;
   }
