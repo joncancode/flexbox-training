@@ -19,8 +19,7 @@ html {
   }
 
   .panel {
-    background:#6B0F9C;
-    box-shadow:inset 0 0 0 5px rgba(255,255,255,0.1);
+    background:black;
     color:white;
     text-align: center;
     align-items:center;
@@ -41,11 +40,31 @@ html {
   }
 
 
-  .panel1 { filter: grayscale(100%); background-image:url(https://winteriscoming.net/wp-content/blogs.dir/385/files/2014/06/stannis-1024.jpg); }
-  .panel2 { filter: grayscale(100%); background-image:url(https://i.ytimg.com/vi/iRoX3-dAja4/maxresdefault.jpg); }
-  .panel3 { filter: grayscale(100%); background-image:url(http://ll-c.ooyala.com/e1/BlZGp3YjE6OQJHsmhE_76TXhkgzBoQDe/promo324259790); }
-  .panel4 { filter: grayscale(100%); background-image:url(http://screencrush.com/files/2015/08/Eddard-Stark-with-Ice-lord-eddard-ned-stark-24488596-1066-1600d.jpg); }
-  .panel5 { filter: grayscale(100%); background-image:url(http://ll-c.ooyala.com/e1/0zbzl1YjE6aGieXwWfDiAGcsck10zWb9/promo323723448); }
+  .panel1 { 
+    filter: grayscale(100%); 
+    background-image:url(https://winteriscoming.net/wp-content/blogs.dir/385/files/2014/06/stannis-1024.jpg); 
+    box-shadow:inset 0 0 0 3px rgba(232, 183, 8, 0.91);
+  }
+  .panel2 { 
+    filter: grayscale(100%); 
+    background-image:url(https://i.ytimg.com/vi/iRoX3-dAja4/maxresdefault.jpg); 
+    box-shadow:inset 0 0 0 3px rgba(7, 147, 34, 0.91);
+  }
+  .panel3 { 
+    filter: grayscale(100%); 
+    background-image:url(http://ll-c.ooyala.com/e1/BlZGp3YjE6OQJHsmhE_76TXhkgzBoQDe/promo324259790); 
+    box-shadow:inset 0 0 0 3px rgba(232, 183, 8, 0.91);
+  }
+  .panel4 { 
+    filter: grayscale(100%); 
+    background-image:url(http://screencrush.com/files/2015/08/Eddard-Stark-with-Ice-lord-eddard-ned-stark-24488596-1066-1600d.jpg); 
+    box-shadow:inset 0 0 0 3px rgba(6, 87, 14, 0.91);
+  }
+  .panel5 { 
+    filter: grayscale(100%); 
+    background-image:url(http://ll-c.ooyala.com/e1/0zbzl1YjE6aGieXwWfDiAGcsck10zWb9/promo323723448); 
+    box-shadow:inset 0 0 0 3px rgba(232, 8, 11, 0.91);
+  }
 
   .panel > * {
     margin:0;
